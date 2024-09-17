@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MONZA CARS</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/monzalogo.JPG" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+<style>
+    body, html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 400px;
+        width: 100%;
+        padding: 40px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .wrapper h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #00BCD4;
+    }
+    
+    .input-box {
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    .input-box input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        background: #f0f0f0;
+        border-radius: 5px;
+    }
+    
+    .input-box input:focus {
+        background: #e0e0e0;
+        box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+    }
+    
+    .input-box i {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 10px;
+        color: #888;
+    }
+    
+    .remember-forgot {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .btn {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        outline: none;
+        background: cyan;
+        color: black;
+        font-size: 18px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .btn:hover {
+        box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+    }
+    
+    .register-link {
+        font-size: 14.5px;
+        text-align: center;
+        margin: 20px 0 15px;
+    }
+    
+    .register-link a {
+        color: #00BCD4;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    
+    .register-link a:hover {
+        text-decoration: underline;
+    }
+    
+    .form-control::placeholder {
+        color: #fff;
+    }
+    </style>
+</head>
+    
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img/monzalogo.JPG" alt="Monza Cars Logo" style="width: 50px; height: 50px;" class="me-2">
+            <h2 class="m-0" style="color: #00BCD4;">MONZA CARS.</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="service.html" class="nav-item nav-link">Services</a>
+                <a href="booking.html" class="nav-item nav-link">Booking</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="login.html" class="nav-item nav-link active">Login</a>
+                <!--<a href="registration.html" class="nav-item nav-link">Registration</a>-->
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Navbar End -->
+
+    <!-- Video Background -->
+<main style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh; overflow: hidden;">
+    <video autoplay loop muted style="width: 100%; height: auto; max-width: 100%; max-height: 100%; object-fit: cover;">
+        <source src="img/log.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</main>
+
+<!-- Login Form -->
+<div class="wrapper">
+    <form action="#">
+        <h1>Login</h1>
+        <div class="input-box">
+            <input type="text" placeholder="Username" required style="width: 100%; padding: 10px; font-size: 16px; border: none; outline: none;">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="input-box">
+            <input type="password" placeholder="Password" required style="width: 100%; padding: 10px; font-size: 16px; border: none; outline: none;">
+            <i class="fas fa-lock"></i>
+        </div>
+        <div class="remember-forgot">
+            <label>
+                <input type="checkbox" style="margin-right: 5px;">
+                Remember me
+            </label>
+            <a href="#" style="color: #00BCD4; text-decoration: none; font-size: 16px;">Forgot Password?</a>
+        </div>
+        <button type="submit" class="btn-box" style="--i:11; width: 100%; height: 45px; background: cyan; border: none; outline: none; border-radius: 5px; position: relative; overflow: hidden; color: black; font-size: 16px; cursor: pointer; transition: background 0.3s ease, box-shadow 0.3s ease;"
+    onmouseover="this.style.backgroundColor='#00d7ee'; this.querySelector('.btn-animation').style.backgroundColor='#00d7ee'; this.style.boxShadow='0 0 5px #00d7ee, 0 0 25px #00d7ee, 0 0 50px #00d7ee, 0 0 100px #00d7ee, 0 0 200px #00d7ee';"
+    onmouseout="this.style.backgroundColor='cyan'; this.querySelector('.btn-animation').style.backgroundColor='cyan'; this.style.boxShadow='none';">
+    Login
+    <span class="btn-animation" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; background-color: cyan; z-index: -1;"></span>
+</button>
+
+        <div class="register-link">
+            <p>Don't have an account? <a href="reg.html" style="color: #00BCD4;">Register</a></p>
+        </div>
+    </form>
+</div>
+
+
+<!-- Bootstrap javaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"></script>
+
+
+    
